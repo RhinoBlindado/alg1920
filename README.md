@@ -1,4 +1,4 @@
-Language: [Español](#algoritmica) | [English](#algorithmics)
+Language: [Español](#algorítmica) | [English](#algorithmics)
 
 ---
 
