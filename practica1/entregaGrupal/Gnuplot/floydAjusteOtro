@@ -1,0 +1,16 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/floydAjusteOtro.png'
+set title "Floyd con otros ajustes"
+
+f(x)=a0*x*x+a1*x+a2
+g(x)=g0*x*log(x)
+
+fit f(x) "../Datos/floyd.dat" via a0,a1,a2
+fit g(x) "../Datos/floyd.dat" via g0
+
+plot f(x) title "Ajuste cuadrático", g(x) title "Ajuste casi lineal", "../Datos/floyd.dat" title "Floyd" pt 7

@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/insercionAO.png'
+set title "Insertion Sort Optimizaciones"
+plot './Datos/insercion.dat' title "Insertion Sort O0" pt 7 w lp, './Datos/insercionO1.dat' title "Insertion Sort O1" pt 7 w lp,  './Datos/insercionO2.dat' title "Insertion Sort O2" pt 7 w lp, './Datos/insercionO3.dat' title "Insertion Sort O3" pt 7 w lp

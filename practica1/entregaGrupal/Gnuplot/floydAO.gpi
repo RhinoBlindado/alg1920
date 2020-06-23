@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/floydAO.png'
+set title "Floyd Optimizaciones"
+plot './Datos/floyd.dat' title "Floyd O0" pt 7 w lp, './Datos/floydO1.dat' title "Floyd O1" pt 7 w lp,  './Datos/floydO2.dat' title "Floyd O2" pt 7 w lp, './Datos/floydO3.dat' title "Floyd O3" pt 7 w lp

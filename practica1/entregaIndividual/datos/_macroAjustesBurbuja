@@ -1,0 +1,14 @@
+set encoding utf8
+set term png size 800,600 font ",15" lw 2
+set xlabel "Número de elementos"
+set ylabel "Tiempo (s)"
+set title "Algoritmo de Burbuja con ajuste cuadrático"
+
+f(x)=a0*x**2+a1*x+a2
+
+fit f(x) "datos_burbuja_exe.dat" via a0,a1,a2
+
+set pointsize 1.5
+set output "img.png"
+plot f(x) title "Ajuste Cuadrático" with lines ls 8, "datos_burbuja_exe.dat" title "Burbuja" with points ls 7
+

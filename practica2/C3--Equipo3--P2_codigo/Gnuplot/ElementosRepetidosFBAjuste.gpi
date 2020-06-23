@@ -1,0 +1,11 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output 'Graficas/ElementosRepetidosFBAjuste.png'
+set title "Elementos Repetidos Fuerza Bruta: Ajuste"
+f(x) = a0*x*x+a1*x+a2
+fit f(x) 'Datos/ElementosRepetidosFB.dat' via a0,a1,a2
+plot 'Datos/ElementosRepetidosFB.dat' title "Fuerza Bruta" pt 7,f(x) title "Ajuste Cuadrático"

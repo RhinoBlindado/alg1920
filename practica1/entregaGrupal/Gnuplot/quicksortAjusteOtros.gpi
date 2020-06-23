@@ -1,0 +1,28 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/quicksortAjusteOtro.png'
+set title "Quicksort con otros ajustes"
+
+h(x)=a*x+b
+g(x)=h*x**2+i*x+j
+f(x)=c*x**3+d*x**2+e*x+f
+
+fit h(x) "../Datos/quicksort.dat" via a,b
+fit h(x) "../Datos/quicksort.dat" via a,b
+fit g(x) "../Datos/quicksort.dat" via h,i,j
+fit g(x) "../Datos/quicksort.dat" via h,i,j
+
+c=8.09562e-17
+d=-5.89067e-09
+e=0.1
+f=0.1001
+fit f(x) "../Datos/quicksort.dat" via c,d,e,f
+
+
+
+plot g(x) title "Ajuste cuadrático",h(x) title "Ajuste lineal",f(x) title "Ajuste cúbico","../Datos/quicksort.dat" title "Quicksort" with points ls 7
+

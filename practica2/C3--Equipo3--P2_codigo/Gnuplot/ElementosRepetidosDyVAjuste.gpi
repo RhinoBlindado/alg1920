@@ -1,0 +1,15 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output 'Graficas/ElementosRepetidosDyVAjuste.png'
+set title "Elementos Repetidos Divide y Vencerás: Ajuste"
+f(x) = a0*x*log(x)+a1
+a1=0.1
+
+fit f(x) 'Datos/ElementosRepetidosDyV.dat' via a0,a1
+fit f(x) 'Datos/ElementosRepetidosDyV.dat' via a0,a1
+
+plot 'Datos/ElementosRepetidosDyV.dat' title "Divide y Vencerás" pt 7, f(x) title "Ajuste casi lineal"

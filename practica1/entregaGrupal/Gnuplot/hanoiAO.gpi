@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/hanoiAO.png'
+set title "Hanoi Optimizaciones"
+plot './Datos/hanoi.dat' title "Hanoi O0" pt 7 w lp, './Datos/hanoiO1.dat' title "Hanoi O1" pt 7 w lp,  './Datos/hanoiO2.dat' title "Hanoi O2" pt 7 w lp, './Datos/hanoiO3.dat' title "Hanoi O3" pt 7 w lp

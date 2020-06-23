@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/heapsort.png'
+set title "Heapsort"
+plot './Datos/heapsort.dat' title "heapsort.dat" pt 7 w lp

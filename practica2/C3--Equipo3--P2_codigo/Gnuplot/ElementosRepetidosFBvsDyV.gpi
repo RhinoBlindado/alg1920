@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output 'Graficas/ElementosRepetidosFBvsDyV.png'
+set title "Elementos Repetidos: Divide y Vencerás vs Fuerza Bruta"
+plot './Datos/ElementosRepetidosDyV.dat' title "Version DyV" pt 7 w lp, './Datos/ElementosRepetidosFB.dat' title "Version FB" pt 7 w lp

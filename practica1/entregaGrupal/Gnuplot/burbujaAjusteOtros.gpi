@@ -1,0 +1,19 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/burbujaAjusteOtro.png'
+set title "Bubblesort con otros ajustes"
+
+f(x)=a0*x**3+a1*x**2+a2*x+a3
+g(x)=g0*x*log(x)+g1
+
+g1=0.1
+
+fit f(x) "../Datos/burbuja.dat" via a0,a1,a2,a3
+fit g(x) "../Datos/burbuja.dat" via g0,g1
+
+plot f(x) title "Ajuste cúbico",g(x) title "Ajuste casi lineal", "../Datos/burbuja.dat" title "Burbuja" pt 7
+

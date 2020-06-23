@@ -1,0 +1,10 @@
+set encoding utf8
+set term png size 800,600
+set xlabel "Número de elementos"
+set ylabel "Tiempo (s)"
+set term png size 800,600
+
+set title "Burbuja vs Quicksort"
+
+set output "img_burbujaVsQuicksort.png"
+plot "datos_quicksort_exe.dat" title "Quicksort" with linespoints ls 7, "datos_burbuja_exe.dat" title "Burbuja" with linespoints ls 6

@@ -1,0 +1,15 @@
+set encoding utf8
+set term png size 800,600 font ",15" lw 2
+set pointsize 1.5
+
+set xlabel "Número de elementos"
+set ylabel "Tiempo (s)"
+set title "Algoritmo de Quicksort con ajuste logarítmico"
+
+f(x)=a0*x*log(x)
+
+fit f(x) "datos_quicksort_exe.dat" via a0
+
+set output "img_quicksortAjuste.png"
+plot f(x) title "Ajuste logarítmico" with lines ls 8,"datos_quicksort_exe.dat" title "Quicksort" with points ls 7
+

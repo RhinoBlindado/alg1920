@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output 'Graficas/matrizTraspuestaFBvsDyV_O2.png'
+set title "Matriz Traspuesta Optimizada: Divide y Vencerás vs Fuerza Bruta"
+plot './Datos/matrizTraspuestaDyV_O2.dat' title "Version DyV" pt 7 w lp, './Datos/matrizTraspuestaFB_O2.dat' title "Version FB" pt 7 w lp

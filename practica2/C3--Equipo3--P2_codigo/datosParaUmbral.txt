@@ -1,0 +1,6 @@
+Elementos Repetidos:
+https://www.wolframalpha.com/input/?i=+2.04466e-09x%5E2+%2B+1.31747e-07x+%2B+6.5883e-05%3D+2.86827e-07*x*log%28x%29+%2B+0.00104065
+
+
+Matriz
+https://www.wolframalpha.com/input/?i=2.32635e-08x%5E2+%2B+-3.53478e-05x+%2B+0.00623189++%3D+7.11795e-10x%5E2*log%28x%29 %2B0.000817628

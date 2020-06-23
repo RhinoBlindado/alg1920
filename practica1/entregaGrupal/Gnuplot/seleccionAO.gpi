@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/seleccionAO.png'
+set title "Selection Sort Optimizaciones"
+plot './Datos/seleccion.dat' title "Selection Sort O0" pt 7 w lp, './Datos/seleccionO1.dat' title "Selection Sort O1" pt 7 w lp,  './Datos/seleccionO2.dat' title "Selection Sort O2" pt 7 w lp, './Datos/seleccionO3.dat' title "Selection Sort O3" pt 7 w lp

@@ -1,0 +1,16 @@
+set encoding utf8
+set term png size 800,600 font ",15" lw 2
+set pointsize 1.5
+
+
+set xlabel "Nodos del grafo"
+set ylabel "Tiempo (s)"
+set title "Algoritmo de Floyd con ajuste cúbico"
+
+f(x)=a0*x*x*x+a1*x*x+a2*x+a3
+
+fit f(x) "datos_floyd_exe.dat" via a0,a1,a2,a3
+
+set output "img_floydAjuste.png"
+plot f(x) title "Ajuste cúbico" with lines ls 8, "datos_floyd_exe.dat" title "Floyd" with points ls 7
+

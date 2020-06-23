@@ -1,0 +1,16 @@
+set encoding utf8
+set term png size 800,600 font ",15" lw 2
+set xlabel "Número de elementos"
+set ylabel "Tiempo (s)"
+set title "Algoritmo de Burbuja con otros ajustes"
+
+f(x)=a0*x**3+a1*x**2+a2*x+a3
+g(x)=g0*x*log(x)
+
+fit f(x) "datos_burbuja_exe.dat" via a0,a1,a2,a3
+fit g(x) "datos_burbuja_exe.dat" via g0
+
+set pointsize 1.5
+set output "img.png"
+plot f(x) title "Ajuste Cúbico",g(x) title "Ajuste Logarítmico", "datos_burbuja_exe.dat" title "Burbuja" with points ls 7
+

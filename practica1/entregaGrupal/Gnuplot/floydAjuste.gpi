@@ -1,0 +1,11 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/floydAjuste.png'
+set title "Floyd Ajuste"
+f(x) = a0*x*x*x+a1*x*x+a2*x+a3
+fit f(x) './Datos/floyd.dat' via a0,a1,a2,a3
+plot './Datos/floyd.dat' title "floyd.dat" pt 7, f(x) title "Curva ajustada"

@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/mergesortAO.png'
+set title "Mergesort Optimizaciones"
+plot './Datos/mergesort.dat' title "Mergesort O0" pt 7 w lp, './Datos/mergesortO1.dat' title "Mergesort O1" pt 7 w lp,  './Datos/mergesortO2.dat' title "Mergesort O2" pt 7 w lp, './Datos/mergesortO3.dat' title "Mergesort O3" pt 7 w lp

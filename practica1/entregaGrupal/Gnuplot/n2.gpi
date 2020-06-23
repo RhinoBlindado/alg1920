@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/n2.png'
+set title "O(n^2)"
+plot './Datos/burbuja.dat' title "Bubblesort" pt 7 w lp, './Datos/insercion.dat' title "Insertion Sort" pt 7 w lp,  './Datos/seleccion.dat' title "Selection Sort" pt 7 w lp

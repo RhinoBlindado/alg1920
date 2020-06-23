@@ -1,0 +1,24 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/nlognAjuste.png'
+set title "Ajuste casi lineal"
+f(x) = a0*x*log(x)+a1
+g(x) = g0*x*log(x)+g1
+h(x) = h0*x*log(x)+h1
+
+a1=0.1
+g1=0.1
+h1=0.1
+
+fit f(x) '../Datos/quicksort.dat' via a0,a1
+fit f(x) '../Datos/quicksort.dat' via a0,a1
+fit g(x) '../Datos/mergesort.dat' via g0,g1
+fit g(x) '../Datos/mergesort.dat' via g0,g1
+fit h(x) '../Datos/heapsort.dat' via h0,h1
+fit h(x) '../Datos/heapsort.dat' via h0,h1
+
+plot '../Datos/quicksort.dat' title "Quicksort" pt 7, '../Datos/mergesort.dat' title "Mergesort" pt 7,  '../Datos/heapsort.dat' title "Heapsort" pt 7, f(x) title "Ajuste Quicksort", g(x) title "Ajuste Mergesort", h(x) title "Ajuste Heapsort"

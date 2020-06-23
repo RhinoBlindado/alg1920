@@ -1,0 +1,9 @@
+#!/bin/bash
+# Funcionamiento:
+# nombreEjecutable numeroMIN numeroMAX numeroStep
+
+for (( i=$2; i<=$3; i+=$4 )); do
+	echo "[$1] Progreso: $i / $3"
+	./$1 $i >> ../datos/datos_$1.dat	
+done
+

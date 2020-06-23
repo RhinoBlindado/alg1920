@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/quicksortAO.png'
+set title "Quicksort AO"
+plot './Datos/quicksort.dat' title "Quicksort O0" pt 7 w lp, './Datos/quicksortO1.dat' title "Quicksort O1" pt 7 w lp,  './Datos/quicksortO2.dat' title "Quicksort O2" pt 7 w lp, './Datos/quicksortO3.dat' title "Quicksort O3" pt 7 w lp

@@ -1,0 +1,15 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output 'Graficas/matrizTraspuestaDyV_O2Ajuste.png'
+set title "Matriz Traspuesta Divide y Vencerás Optimizada: Ajuste"
+f(x) = a0*x**2*log(x)+a1
+a1=0.1
+
+fit f(x) 'Datos/matrizTraspuestaDyV_O2.dat' via a0,a1
+fit f(x) 'Datos/matrizTraspuestaDyV_O2.dat' via a0,a1
+
+plot 'Datos/matrizTraspuestaDyV_O2.dat' title "Divide y Vencerás" pt 7, f(x) title "Ajuste n^2log(n)"

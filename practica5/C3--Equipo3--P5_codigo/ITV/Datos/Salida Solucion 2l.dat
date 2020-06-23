@@ -1,0 +1,600 @@
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+Tiempo total: 11
+
+Coches en cola:
+1 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 2 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 7
+
+Linea 1: 1 
+Tiempo en linea 1: 4
+
+Linea 2: 2 
+Tiempo en linea 2: 7
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+Tiempo total: 45
+
+Coches en cola:
+1 2 3 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 4 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 23
+
+Linea 1: 3 1 
+Tiempo en linea 1: 22
+
+Linea 2: 4 2 
+Tiempo en linea 2: 23
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+Tiempo total: 75
+
+Coches en cola:
+1 2 3 4 5 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 6 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 38
+
+Linea 1: 5 4 2 
+Tiempo en linea 1: 37
+
+Linea 2: 6 3 1 
+Tiempo en linea 2: 38
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+Tiempo total: 95
+
+Coches en cola:
+1 2 3 4 5 6 7 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 8 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 48
+
+Linea 1: 7 6 5 2 1 
+Tiempo en linea 1: 48
+
+Linea 2: 8 4 3 
+Tiempo en linea 2: 47
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+Tiempo total: 107
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 10 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 54
+
+Linea 1: 9 8 7 6 2 
+Tiempo en linea 1: 53
+
+Linea 2: 10 5 4 3 1 
+Tiempo en linea 2: 54
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+Tiempo total: 118
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 12 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 59
+
+Linea 1: 11 10 9 7 6 5 2 
+Tiempo en linea 1: 59
+
+Linea 2: 12 8 4 3 1 
+Tiempo en linea 2: 59
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+Tiempo total: 149
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 14 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 75
+
+Linea 1: 13 12 11 10 9 8 7 6 1 
+Tiempo en linea 1: 74
+
+Linea 2: 14 5 4 3 2 
+Tiempo en linea 2: 75
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+15	4
+16	7
+Tiempo total: 160
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 16 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 80
+
+Linea 1: 15 14 13 12 11 10 9 3 1 
+Tiempo en linea 1: 80
+
+Linea 2: 16 8 7 6 5 4 2 
+Tiempo en linea 2: 80
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+15	4
+16	7
+17	1
+18	7
+Tiempo total: 168
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 18 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 84
+
+Linea 1: 17 16 15 14 13 12 11 10 9 7 2 1 
+Tiempo en linea 1: 84
+
+Linea 2: 18 8 6 5 4 3 
+Tiempo en linea 2: 84
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+15	4
+16	7
+17	1
+18	7
+19	13
+20	17
+Tiempo total: 198
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 20 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 99
+
+Linea 1: 19 18 17 16 15 14 13 12 11 10 9 8 
+Tiempo en linea 1: 99
+
+Linea 2: 20 7 6 5 4 3 2 1 
+Tiempo en linea 2: 99
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+15	4
+16	7
+17	1
+18	7
+19	13
+20	17
+21	12
+22	9
+Tiempo total: 219
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 22 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 110
+
+Linea 1: 21 20 19 18 17 16 15 14 13 12 11 10 1 
+Tiempo en linea 1: 109
+
+Linea 2: 22 9 8 7 6 5 4 3 2 
+Tiempo en linea 2: 110
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+15	4
+16	7
+17	1
+18	7
+19	13
+20	17
+21	12
+22	9
+23	8
+24	10
+Tiempo total: 237
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 24 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 119
+
+Linea 1: 23 22 21 20 19 18 17 16 15 14 13 12 10 
+Tiempo en linea 1: 119
+
+Linea 2: 24 11 9 8 7 6 5 4 3 2 1 
+Tiempo en linea 2: 118
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+15	4
+16	7
+17	1
+18	7
+19	13
+20	17
+21	12
+22	9
+23	8
+24	10
+25	3
+26	11
+Tiempo total: 251
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 26 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 126
+
+Linea 1: 25 24 23 22 21 20 19 18 17 16 15 14 13 11 
+Tiempo en linea 1: 125
+
+Linea 2: 26 12 10 9 8 7 6 5 4 3 2 1 
+Tiempo en linea 2: 126
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+15	4
+16	7
+17	1
+18	7
+19	13
+20	17
+21	12
+22	9
+23	8
+24	10
+25	3
+26	11
+27	3
+28	4
+Tiempo total: 258
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 28 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 129
+
+Linea 1: 27 26 25 24 23 22 21 20 19 18 17 16 15 14 1 
+Tiempo en linea 1: 129
+
+Linea 2: 28 13 12 11 10 9 8 7 6 5 4 3 2 
+Tiempo en linea 2: 129
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+15	4
+16	7
+17	1
+18	7
+19	13
+20	17
+21	12
+22	9
+23	8
+24	10
+25	3
+26	11
+27	3
+28	4
+29	8
+30	16
+Tiempo total: 282
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 
+
+Coches listos:
+Linea 1: ---
+Linea 2: 30 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 141
+
+Linea 1: 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 1 
+Tiempo en linea 1: 141
+
+Linea 2: 30 13 12 11 10 9 8 7 6 5 4 3 2 
+Tiempo en linea 2: 141
+

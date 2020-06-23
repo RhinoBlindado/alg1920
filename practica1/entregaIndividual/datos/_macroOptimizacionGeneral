@@ -1,0 +1,8 @@
+set encoding utf8
+set term png size 800,600
+set xlabel "Número de elementos"
+set ylabel "Tiempo (s)"
+set title ARG1
+
+set output "img_.png"
+plot ARG3 title ARG2 with linespoints ls 7, ARG4 title "Optimización O1" with linespoints, ARG5 title "Optimización O2" with linespoints, ARG6 title "Optimización O3" with linespoints

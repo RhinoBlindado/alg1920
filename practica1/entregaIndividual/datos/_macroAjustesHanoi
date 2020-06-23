@@ -1,0 +1,15 @@
+set encoding utf8
+set term png size 800,600 font ",15" lw 2
+set pointsize 1.5
+
+set xlabel "Número de discos"
+set ylabel "Tiempo (s)"
+set title "Algoritmo de las Torres de Hanoi con ajuste exponencial"
+
+f(x)=a0*2**x
+
+fit f(x) "datos_hanoi_exe.dat" via a0
+
+set output "img_hanoiAjuste.png"
+plot f(x) title "Ajuste Exponencial" with lines ls 8, "datos_hanoi_exe.dat" title "Hanoi" with points ls 7
+

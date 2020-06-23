@@ -1,0 +1,11 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/burbujaAjuste.png'
+set title "Bubblesort Ajuste"
+f(x) = a0*x*x+a1*x+a2
+fit f(x) './Datos/burbuja.dat' via a0,a1,a2
+plot './Datos/burbuja.dat' title "bubblesort.dat" pt 7, f(x) title "Curva ajustada"

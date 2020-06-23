@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/burbuja.png'
+set title "Bubblesort"
+plot './Datos/burbuja.dat' title "bubblesort.dat" pt 7 w lp

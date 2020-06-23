@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output 'Graficas/graf3l.png'
+set title "ITV: 3 líneas"
+plot './Datos/3l.dat' title "ITV" pt 7 w lp

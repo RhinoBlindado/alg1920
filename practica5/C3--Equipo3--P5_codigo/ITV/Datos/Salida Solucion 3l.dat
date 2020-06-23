@@ -1,0 +1,390 @@
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+Tiempo total: 11
+
+Coches en cola:
+1 
+
+Coches listos:
+Linea 1: ---
+Linea 2: ---
+Linea 3: 2 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 7
+
+Linea 1: 1 
+Tiempo en linea 1: 4
+
+Linea 2: 
+Tiempo en linea 2: 0
+
+Linea 3: 2 
+Tiempo en linea 3: 7
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+Tiempo total: 45
+
+Coches en cola:
+1 2 3 
+
+Coches listos:
+Linea 1: ---
+Linea 2: ---
+Linea 3: 4 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 18
+
+Linea 1: 3 
+Tiempo en linea 1: 18
+
+Linea 2: 2 1 
+Tiempo en linea 2: 11
+
+Linea 3: 4 
+Tiempo en linea 3: 16
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+Tiempo total: 75
+
+Coches en cola:
+1 2 3 4 5 
+
+Coches listos:
+Linea 1: ---
+Linea 2: ---
+Linea 3: 6 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 30
+
+Linea 1: 5 4 
+Tiempo en linea 1: 30
+
+Linea 2: 3 2 1 
+Tiempo en linea 2: 29
+
+Linea 3: 6 
+Tiempo en linea 3: 16
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+Tiempo total: 95
+
+Coches en cola:
+1 2 3 4 5 6 7 
+
+Coches listos:
+Linea 1: ---
+Linea 2: ---
+Linea 3: 8 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 32
+
+Linea 1: 7 5 2 1 
+Tiempo en linea 1: 32
+
+Linea 2: 6 4 
+Tiempo en linea 2: 32
+
+Linea 3: 8 3 
+Tiempo en linea 3: 31
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+Tiempo total: 107
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 
+
+Coches listos:
+Linea 1: ---
+Linea 2: ---
+Linea 3: 10 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 36
+
+Linea 1: 9 7 5 1 
+Tiempo en linea 1: 35
+
+Linea 2: 8 6 2 
+Tiempo en linea 2: 36
+
+Linea 3: 10 4 3 
+Tiempo en linea 3: 36
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+Tiempo total: 118
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 
+
+Coches listos:
+Linea 1: ---
+Linea 2: ---
+Linea 3: 12 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 40
+
+Linea 1: 11 10 9 8 7 1 
+Tiempo en linea 1: 39
+
+Linea 2: 6 4 2 
+Tiempo en linea 2: 39
+
+Linea 3: 12 5 3 
+Tiempo en linea 3: 40
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+Tiempo total: 149
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 
+
+Coches listos:
+Linea 1: ---
+Linea 2: ---
+Linea 3: 14 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 50
+
+Linea 1: 13 12 11 10 9 6 
+Tiempo en linea 1: 50
+
+Linea 2: 8 7 5 4 
+Tiempo en linea 2: 50
+
+Linea 3: 14 3 2 1 
+Tiempo en linea 3: 49
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+15	4
+16	7
+Tiempo total: 160
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+Coches listos:
+Linea 1: ---
+Linea 2: ---
+Linea 3: 16 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 54
+
+Linea 1: 15 14 13 12 11 10 1 
+Tiempo en linea 1: 52
+
+Linea 2: 9 7 6 5 2 
+Tiempo en linea 2: 54
+
+Linea 3: 16 8 4 3 
+Tiempo en linea 3: 54
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+15	4
+16	7
+17	1
+18	7
+Tiempo total: 168
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+
+Coches listos:
+Linea 1: ---
+Linea 2: ---
+Linea 3: 18 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 56
+
+Linea 1: 17 16 15 14 13 12 11 10 
+Tiempo en linea 1: 56
+
+Linea 2: 9 7 6 4 2 
+Tiempo en linea 2: 56
+
+Linea 3: 18 8 5 3 1 
+Tiempo en linea 3: 56
+
+
+--- DATOS PREPROCESADO ---
+
+Coche:	Tiempo:
+1	4
+2	7
+3	18
+4	16
+5	14
+6	16
+7	7
+8	13
+9	10
+10	2
+11	3
+12	8
+13	11
+14	20
+15	4
+16	7
+17	1
+18	7
+19	13
+20	17
+Tiempo total: 198
+
+Coches en cola:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+
+Coches listos:
+Linea 1: ---
+Linea 2: ---
+Linea 3: 20 
+
+
+--- SOLUCION ---
+
+Tiempo solucion: 66
+
+Linea 1: 19 18 17 16 15 14 13 11 
+Tiempo en linea 1: 66
+
+Linea 2: 12 10 9 7 6 4 2 
+Tiempo en linea 2: 66
+
+Linea 3: 20 8 5 3 1 
+Tiempo en linea 3: 66
+

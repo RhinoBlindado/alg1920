@@ -1,0 +1,19 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/hanoiAjusteOtro.png'
+set title "Hanoi con otros ajustes"
+
+f(x)=a0*x**3+a1*x**2+a2*x+a3
+g(x)=g0*x*log(x)
+h(x)=h0*x**2+h1*x+h2
+
+fit f(x) "../Datos/hanoi.dat" via a0,a1,a2,a3
+fit g(x) "../Datos/hanoi.dat" via g0
+fit h(x) "../Datos/hanoi.dat" via h0,h1,h2
+
+plot h(x) title "Ajuste cuadrático", f(x) title "Ajuste cúbico", g(x) title "Ajuste casi lineal", "../Datos/hanoi.dat" title "Hanoi" pt 7
+

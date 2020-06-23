@@ -1,0 +1,14 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set yrange [0:12]
+set xtics font ", 10"
+set term png
+set grid
+set output 'Graficas/matrizTraspuestaFBAjuste.png'
+set title "Matriz Traspuesta Fuerza Bruta: Ajuste"
+f(x) = a0*x*x+a1*x+a2
+g(x) = b0*x*x+b1*x+b2
+fit f(x) 'Datos/matrizTraspuestaFB.dat' via a0,a1,a2
+fit g(x) 'Datos/matrizTraspuestaFB_O2.dat' via b0,b1,b2
+plot 'Datos/matrizTraspuestaFB.dat' title "Fuerza Bruta" pt 7, 'Datos/matrizTraspuestaFB_O2.dat' title "Fuerza Bruta optimizado" pt 7,f(x) title "Ajuste Cuadrático", g(x) title "Ajuste Cuadrático Optimizado"

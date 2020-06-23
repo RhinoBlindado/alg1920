@@ -1,0 +1,9 @@
+set xlabel "Tamaño"
+set ylabel "Tiempo (seg)"
+set key left
+set xtics font ", 10"
+set term png
+set grid
+set output '../Graficas/nlogn.png'
+set title "O(nlogn)"
+plot './Datos/mergesort.dat' title "Mergesort" pt 7 w lp, './Datos/quicksort.dat' title "Quicksort" pt 7 w lp,  './Datos/heapsort.dat' title "Heapsort" pt 7 w lp
