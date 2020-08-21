@@ -49,7 +49,7 @@ Para compilar un programa se debe hacer uso del ```makefile``` incluído en la c
 # Algorithmics #
 ## 2019-2020 Course, Computer Science Engineering Degree, ETSIIT UGR.
 ### Introduction
-The practical side of this course was divided in 5 practical sessions, each one of them except the first one was centered on the resolution of one or many problems making use of a different algorithm design paradigm. These sessions where made in a team with [José María Gómez García](https://github.com/gomezjosemaria), [Fernando Lojano Mayaguari](https://github.com/GFernando97) y [Carlos Mulero Haro](https://github.com/carlosmh2000).
+The practical side of this course was divided in 5 practical sessions, each one of them except the first one was centered on the resolution of one or many problems making use of a different algorithm design paradigm. These sessions where made in a team with [José María Gómez García](https://github.com/gomezjosemaria), [Fernando Lojano Mayaguari](https://github.com/GFernando97) and [Carlos Mulero Haro](https://github.com/carlosmh2000).
 
 ### Compilation
 The programs where made and tested in Ubuntu 18+ and Windows 10 with Cygwin.
